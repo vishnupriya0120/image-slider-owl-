@@ -1,0 +1,105 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+}
+.owl-carousel{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70vw;
+    text-align: center;
+}
+h2{
+  font-size: 4em;
+  color: #fff;
+  text-transform: uppercase;
+  margin:2.5%
+}
+p{
+  font-size: 1em;
+  color: #fff;
+  text-transform: capitalize;
+
+}
+.image1{
+  background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.7)), url(images/image1.jpg);
+}
+.image2{
+    background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.7)), url(images/image2.jpg);
+  }
+.image3{
+    background-image:linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.7)),url(images/image3.jpg);
+  }
+.image4{
+    background-image:linear-gradient(rgba(4,9,30,0.1),rgba(4,9,30,0.7)), url(images/image4.jpg);
+  } 
+.image5{
+    background-image:linear-gradient(rgba(4,9,30,-0.3),rgba(4,9,30,0.7)), url(images/image5.jpg);
+  }   
+.owl-dots{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width:100%;
+}
+.owl-nav{
+  border: none !important;
+  outline: none !important;
+}
+.owl-prev, .owl-next{
+  position:absolute;
+  top:50%;
+  transform: translate(-50%);
+  font-size: 80px !important;
+  color: #fff !important;
+  font-weight: bolder !important;
+}
+.owl-prev{
+  left:2%;
+}
+.owl-next{
+  right:2%;
+}
+a{
+  font-size: .7em;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 5%;
+  padding:1em 2em;
+  box-shadow: 0 7px 8px rgb(1, 41, 25), 0 1px 2px rgb(2, 31, 20);
+
+}
+#one{
+  background-color:#1e231b;
+}
+#two{
+  background-color: #644a29;
+}
+#three{
+  background-color:#0d3781;
+}
+#four{
+  background-color: #cd1f1e;
+}
+#five{
+  background-color: #49241b;
+}
